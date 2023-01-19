@@ -15,7 +15,7 @@ import Forgot from "../pages/Auth/Forgot";
 import Main from "../pages/Main";
 
 const Router = () => {
-  const socket = socketIO.connect("http://localhost:3003");
+  // const socket = socketIO.connect(`${process.env.REACT_APP_BUILD_API}`);
 
   const PrivateRoute = () => {
     const token = localStorage.getItem("token");

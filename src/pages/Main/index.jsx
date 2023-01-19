@@ -37,7 +37,7 @@ const Main = () => {
     const data = user.data;
     setLogin(user);
     axios
-      .get(`http://localhost:3003/users/all`)
+      .get(`${process.env.REACT_APP_BUILD_API}/users/all`)
       .then((response) => {
         console.log(response.data.data);
         setList(response.data.data);
@@ -48,7 +48,7 @@ const Main = () => {
   }, []);
 
   useEffect(() => {
-    const socket = io(`http://localhost:3003`);
+    const socket = io(`${process.env.REACT_APP_BUILD_API}`);
     socket.on("send-message-response", (response) => {
       const receiver = JSON.parse(localStorage.getItem("receiver"));
       if (
@@ -66,7 +66,10 @@ const Main = () => {
       try {
         const user = JSON.parse(localStorage.getItem("user"));
         const token = user.token;
-        let res = await axios.get(`http://localhost:3003/users/profile`, auth);
+        let res = await axios.get(
+          `${process.env.REACT_APP_BUILD_API}/users/profile`,
+          auth
+        );
         setProfile(res.data.data);
         console.log("fetch profile", res.data.data);
       } catch (err) {
