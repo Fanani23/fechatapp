@@ -1,0 +1,382 @@
+@import url("https://fonts.googleapis.com/css2?family=Inspiration&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Rancho&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+.containerMain {
+  width: 100%;
+  height: 100vh;
+  background-color: #fafafa;
+  font-family: "Rubik", sans-serif;
+}
+
+.mainBase {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.mainLeft {
+  width: 30%;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.leftBase {
+  width: 85%;
+  height: 90vh;
+  margin: 35px auto auto auto;
+}
+
+.leftMain {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.chatText {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 29px;
+  line-height: 34px;
+  text-align: center;
+  letter-spacing: -0.165px;
+  color: #7e98df;
+  margin-bottom: 0;
+}
+
+.profileBase {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileImg {
+  width: 80px;
+  height: 80px;
+  border-radius: 30px;
+}
+
+.profileName {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: -0.165px;
+  color: #232323;
+  margin-bottom: 0;
+}
+
+.profileBio {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 1.335px;
+  color: #848484;
+  margin-bottom: 0;
+}
+
+.searchBase {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.searchMain {
+  width: 80%;
+}
+
+.plusImg {
+  width: 23px;
+  height: 23px;
+  margin-top: 7px;
+}
+
+.navBase {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: -10px auto auto auto;
+}
+
+.buttonAll {
+  width: auto;
+  height: 40px;
+  border: transparent;
+  border-radius: 10px;
+  background-color: transparent;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.165px;
+  color: #232323;
+}
+
+.buttonAll:hover {
+  background-color: #7e98df;
+  color: #ffffff;
+}
+
+.buttonAll:focus {
+  background-color: #7e98df;
+  color: #ffffff;
+}
+
+.buttonImportant {
+  width: auto;
+  height: 40px;
+  border: transparent;
+  border-radius: 10px;
+  background-color: transparent;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.165px;
+  color: #232323;
+}
+
+.buttonImportant:hover {
+  background-color: #7e98df;
+  color: #ffffff;
+}
+
+.buttonImportant:focus {
+  background-color: #7e98df;
+  color: #ffffff;
+}
+
+.buttonUnread {
+  width: auto;
+  height: 40px;
+  border: transparent;
+  border-radius: 10px;
+  background-color: transparent;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.165px;
+  color: #232323;
+}
+
+.buttonUnread:hover {
+  background-color: #7e98df;
+  color: #ffffff;
+}
+
+.buttonUnread:focus {
+  background-color: #7e98df;
+  color: #ffffff;
+}
+
+.userScroll {
+  width: 100%;
+  height: 35vh;
+  overflow-y: scroll;
+}
+
+.userBase {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.userMain {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.userImg {
+  width: 63px;
+  height: 63px;
+  border-radius: 15px;
+}
+
+.userNameBase {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.userName {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: -0.165px;
+  color: #232323;
+  margin-bottom: 0;
+}
+
+.userMessage {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: left;
+  letter-spacing: -0.165px;
+  color: #7e98df;
+}
+
+.userTimeBase {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.userTime {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: -0.165px;
+  color: #848484;
+  margin-bottom: 0;
+}
+
+.sliderUser {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #7e98df;
+}
+
+.sliderBase {
+  width: 60%;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.sliderMain {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mainRight {
+  width: 70%;
+  height: 100vh;
+  background-color: transparent;
+}
+
+.rightTop {
+  width: 100%;
+  height: 15vh;
+  background-color: #ffffff;
+}
+
+.rightHeader {
+  width: 85%;
+  height: 80%;
+  margin: auto auto auto auto;
+}
+
+.headerMain {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.headerText {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: -0.165px;
+  color: #232323;
+  margin-bottom: 0;
+}
+
+.rightCenter {
+  width: 100%;
+  height: 70vh;
+  background-color: #fafafa;
+  overflow-y: scroll;
+}
+
+.rightChat {
+  width: 90%;
+  height: 90%;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.chatMain {
+  width: 100%;
+  height: 100%;
+}
+
+.chatRight {
+  font-size: 13px;
+  text-align: right;
+}
+
+.rightSender {
+  text-align: right;
+  margin-bottom: 0;
+}
+
+.rightReceiver {
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.rightBottom {
+  width: 100%;
+  height: 15vh;
+  background-color: #ffffff;
+}
+
+.rightMessage {
+  text-align: right;
+  margin-bottom: 0;
+}
+
+.leftMessage {
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.rightFooter {
+  width: 85%;
+  height: 80%;
+  margin: auto auto auto auto;
+}
+
+.footerMain {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.inputBase {
+  width: 95%;
+}
