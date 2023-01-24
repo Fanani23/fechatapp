@@ -1,70 +1,129 @@
-# Getting Started with Create React App
+<br />
+<p align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h3 align="center">SEED CHAT APP</h3>
+  <p align="center">
+    <image align="center" width="200" src='./public/demo/logo.png' />
+  </p>
 
-## Available Scripts
+  <p align="center">
+    <br />
+    <a href="https://github.com/Fanani23/fechatapps.git"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://fechatapps.vercel.app/">View Demo</a>
+  </p>
+</p>
 
-In the project directory, you can run:
+<!-- TABLE OF CONTENTS -->
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [About the Project](#about-the-project)
+  - [Built With](#built-with)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Related Project](#related-project)
+- [Screenshot](#screenshot)
+- [Contact](#contact)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<!-- ABOUT THE PROJECT -->
 
-### `npm test`
+## About The Project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+SEED Ecommerce App is web base application used to buy or sell some products as marketplace. User as seller can add, edit, and delete product as user want it. And user as customer can view and buy some product what user like. This application built with Node JS and React JS as frontend framework.
+This Application use Rest API server from [seedchatapp](https://bechatapps.vercel.app/)
 
-### `npm run build`
+### Built With
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Node JS](https://nodejs.org/en/docs/)
+- [Socket io](https://socket.io/docs/v4/client-installation/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<!-- GETTING STARTED -->
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
 
-### `npm run eject`
+### Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This is an example of how to list things you need to use the software and how to install them.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [nodejs](https://nodejs.org/en/download/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Installation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Clone the repo
 
-## Learn More
+```sh
+git clone https://github.com/Fanani23/fechatapps.git
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. Install NPM packages
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```sh
+npm install
+```
 
-### Code Splitting
+3. Add .env file at root folder project, and add following
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```sh
+HOST = https://bechatapps.vercel.app/ // or use your own
 
-### Analyzing the Bundle Size
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<!-- CONTRIBUTING -->
 
-### Making a Progressive Web App
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-### Advanced Configuration
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b your/branch`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/yourbranch`)
+5. Open a Pull Request
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<!-- SCREENSHOT -->
 
-### Deployment
+## Screenshot
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+| Register Page                                                   |
+| --------------------------------------------------------------- |
+| ![register](/public/demo/register.png?raw=true "Register Page") |
 
-### `npm run build` fails to minify
+| Login Page                                             |
+| ------------------------------------------------------ |
+| ![login](/public/demo/login.png?raw=true "Login Page") |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+| Forgot Page                                               |
+| --------------------------------------------------------- |
+| ![forgot](/public/demo/forgot.png?raw=true "Forgot Page") |
+
+| Home Page                                           |
+| --------------------------------------------------- |
+| ![home](/public/demo/main.png?raw=true "Home Page") |
+
+| Chat Page                                           |
+| --------------------------------------------------- |
+| ![chat](/public/demo/chat.png?raw=true "Chat Page") |
+
+| Option Page                                               |
+| --------------------------------------------------------- |
+| ![option](/public/demo/option.png?raw=true "Option Page") |
+
+<!-- RELATED PROJECT -->
+
+## Related Project
+
+- [`Seed Chat App Demo`](https://fechatapps.vercel.app/)
+- [`Seed Chat App Rest API`](https://bechatapps.vercel.app/)
+- [`Seed Chat App Rest API Repository`](https://github.com/Fanani23/fechatapps.git)
+
+<!-- CONTACT -->
+
+## Contact
+
+Contributors names and contact info
+
+- AUTHOR
+  - Pramudia Syahrul Fanani [@imoody](https://github.com/Fanani23/)
