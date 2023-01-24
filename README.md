@@ -32,7 +32,7 @@
 
 ## About The Project
 
-SEED Ecommerce App is web base application used to buy or sell some products as marketplace. User as seller can add, edit, and delete product as user want it. And user as customer can view and buy some product what user like. This application built with Node JS and React JS as frontend framework.
+SEED Chat App is web base application used to share information to friends, family, or parter by chat feature. This application built with Node JS and React JS as frontend framework.
 This Application use Rest API server from [seedchatapp](https://bechatapps.vercel.app/)
 
 ### Built With
