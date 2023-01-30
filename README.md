@@ -99,17 +99,17 @@ Contributions are what make the open source community such an amazing place to b
 | --------------------------------------------------------- |
 | ![forgot](/public/demo/forgot.png?raw=true "Forgot Page") |
 
-| Home Page                                           |
-| --------------------------------------------------- |
-| ![home](/public/demo/main.png?raw=true "Home Page") |
+| Home Page                                            |
+| ---------------------------------------------------- |
+| ![home](/public/demo/mainn.png?raw=true "Home Page") |
 
-| Chat Page                                           |
-| --------------------------------------------------- |
-| ![chat](/public/demo/chat.png?raw=true "Chat Page") |
+| Chat Page                                            |
+| ---------------------------------------------------- |
+| ![chat](/public/demo/chatt.png?raw=true "Chat Page") |
 
-| Option Page                                               |
-| --------------------------------------------------------- |
-| ![option](/public/demo/option.png?raw=true "Option Page") |
+| Option Page                                                |
+| ---------------------------------------------------------- |
+| ![option](/public/demo/optionn.png?raw=true "Option Page") |
 
 <!-- RELATED PROJECT -->
 
